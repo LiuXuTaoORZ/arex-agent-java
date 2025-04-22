@@ -5,6 +5,7 @@ import io.arex.agent.bootstrap.internal.CallDepth;
 
 /**
  * Avoid collecting data multiple times on the call chain
+ * 避免在调用链上多次收集
  */
 public class RepeatedCollectManager {
 

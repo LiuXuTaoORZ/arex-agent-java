@@ -11,7 +11,7 @@ import java.util.List;
 
 import static java.util.Collections.singletonList;
 
-@AutoService(ModuleInstrumentation.class)
+@AutoService(ModuleInstrumentation.class) //个用于自动生成 Java Service Provider 配置文件的工具
 public class MyBatisModuleInstrumentation extends ModuleInstrumentation {
     public MyBatisModuleInstrumentation() {
         // version <  3.3.0, moduleName = "MyBatis",
